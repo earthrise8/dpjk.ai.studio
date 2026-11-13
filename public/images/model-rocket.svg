@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="960" y2="580" gradientUnits="userSpaceOnUse"><stop stop-color="#2e2825"/><stop offset="1" stop-color="#1f1814"/></linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" stroke="#c5afa5" stroke-opacity=".065"/></pattern>
+    <linearGradient id="metal" x1="0" y1="-25" x2="0" y2="25" gradientUnits="userSpaceOnUse"><stop stop-color="#6d635e"/><stop offset=".16" stop-color="#aca09b"/><stop offset=".37" stop-color="#e4ddd6"/><stop offset=".48" stop-color="#ff8952"/><stop offset=".57" stop-color="#b5a6a0"/><stop offset=".85" stop-color="#7d6e67"/><stop offset="1" stop-color="#4a3931"/></linearGradient>
+    <linearGradient id="cone" x1="195" y1="-25" x2="195" y2="25" gradientUnits="userSpaceOnUse"><stop stop-color="#483932"/><stop offset=".4" stop-color="#ac9d97"/><stop offset=".49" stop-color="#cabdb7"/><stop offset=".59" stop-color="#6d5448"/><stop offset="1" stop-color="#332923"/></linearGradient>
+    <linearGradient id="fin" x1="-220" y1="-75" x2="-220" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#72564a"/><stop offset="1" stop-color="#3b2920"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-120%" width="180%" height="400%"><feGaussianBlur stdDeviation="13"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".035"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+  </defs>
+  <rect width="960" height="580" fill="url(#background)"/><rect width="960" height="580" fill="url(#grid)"/>
+  <g transform="translate(485 302) rotate(-29)">
+    <ellipse cy="40" rx="280" ry="25" fill="#0c0705" opacity=".7" filter="url(#shadow)"/>
+    <path d="M-365 0H350" stroke="#b69e94" stroke-opacity=".24" stroke-dasharray="8 8"/>
+    <path d="M-260-37V-104M264-4V-104M-260-90H264" stroke="#c0a79d" stroke-opacity=".3"/><path d="M-260-94V-86M264-94V-86" stroke="#c0a79d" stroke-opacity=".4"/>
+    <path d="M-222-20L-179-22-240-82-276-82-265-20" fill="url(#fin)" stroke="#9a857b" stroke-opacity=".3"/><path d="M-222 20L-179 22-240 82-276 82-265 20" fill="#412c22" stroke="#877065" stroke-opacity=".4"/>
+    <path d="M-261-24H166V24H-261Z" fill="url(#metal)"/><path d="M165-24C205-23 243-7 267 0C243 8 205 23 165 24Z" fill="url(#cone)"/>
+    <ellipse cx="-261" rx="4" ry="24" fill="#927f76"/><ellipse cx="-264" rx="3" ry="17" fill="#322722"/><path d="M-265-13H-278V13H-265Z" fill="#433026"/>
+    <path d="M-214-24V24M-208-24V24M102-24V24M108-24V24M159-24V24" stroke="#64473a" stroke-opacity=".55" stroke-width="1.4"/>
+    <path d="M-208-7H102" stroke="#ff8952" stroke-opacity=".5"/><path d="M-208 17H102" stroke="#322722" stroke-opacity=".3"/>
+    <path d="M-260-3H-185L-237 5H-273Z" fill="#5c4236" stroke="#a8948c" stroke-opacity=".6"/><path d="M-257-1H-195" stroke="#bca79f" stroke-opacity=".7"/>
+    <rect x="120" y="-20" width="17" height="40" fill="#ae9084" opacity=".7"/>
+    <g fill="#462d22" opacity=".7"><circle cx="-202" cy="-16" r="1.4"/><circle cx="-202" cy="16" r="1.4"/><circle cx="97" cy="-16" r="1.4"/><circle cx="97" cy="16" r="1.4"/></g>
+    <path d="M-260 113H267M-260 108V118M267 108V118" stroke="#b8a299" stroke-opacity=".25"/>
+     <g fill="#af968b" opacity=".7" font-family="monospace" font-size="10" letter-spacing="2"><text x="-40" y="-103">UNTITLED / ROCKETRY</text><text x="-28" y="132">ARC / TEAM STUDY</text></g>
+  </g>
+  <g stroke="#bba59b" stroke-opacity=".3"><path d="M28 72V28H72M888 28H932V72M28 508V552H72M888 552H932V508"/></g>
+  <g fill="#a58c81" font-family="monospace" font-size="10" letter-spacing="2"><text x="35" y="540">ROCKETRY / ILLUSTRATION</text><text x="925" y="540" text-anchor="end">NOT TO SCALE</text></g>
+  <rect width="960" height="580" opacity=".4" filter="url(#grain)"/>
+</svg>
